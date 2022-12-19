@@ -1,4 +1,4 @@
-import React, {  FC } from 'react';
+import React, { FC } from 'react';
 
 const ForgotPassword: FC = () => {
   // const navigation = useNavigate();
@@ -38,9 +38,7 @@ const ForgotPassword: FC = () => {
 
   return (
     <section className="forgot-password-wrapper">
-      <div className="forgot-password-container">
-
-      </div>
+      <div className="forgot-password-container">forgot</div>
     </section>
   );
 };
