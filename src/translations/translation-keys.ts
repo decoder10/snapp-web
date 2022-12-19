@@ -1,8 +1,7 @@
 import { t } from './translator';
 
 export const tKeys = (key: string | number, variables?: (string | number)[]) => {
-  const tr: { [key: string | number]: string } = {
-  };
+  const tr: { [key: string | number]: string } = {};
 
   if (!tr[key]) {
     if (process.env.NODE_ENV === 'development') {

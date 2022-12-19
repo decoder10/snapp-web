@@ -3,7 +3,7 @@ import React, { ReactElement } from 'react';
 import { Navigate, RouteObject } from 'react-router-dom';
 
 import ForgotPassword from 'ui/forgot-password/forgot-password';
-import Home from "ui/home/home";
+import Home from 'ui/home/home';
 import NotFound from 'ui/not-found/not-found';
 import SignIn from 'ui/sign-in/sign-in';
 

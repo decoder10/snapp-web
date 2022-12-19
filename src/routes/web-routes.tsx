@@ -3,10 +3,9 @@ import React from 'react';
 
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import {  routeConfig } from 'routes/routes-config';
+import { routeConfig } from 'routes/routes-config';
 
 const WebRoutes: FC = () => {
-
   return (
     <Routes>
       {routeConfig.map(item => {
