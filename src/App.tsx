@@ -1,4 +1,4 @@
-import { useAppSelector } from 'configs/hooks';
+import { useAppSelector } from 'hooks/hooks';
 
 import WebRoutes from 'routes/web-routes';
 
