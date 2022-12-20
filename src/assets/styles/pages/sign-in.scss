@@ -1,0 +1,51 @@
+.signIn-wrapper {
+	@extend .fullSize;
+	display: block;
+	background: #2d2d2d;
+
+	@keyframes example {
+		from {top: 0;}
+		to {opacity: 1}
+	}
+
+	.container {
+		@extend .center;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-family: "Roboto","Helvetica","Arial",sans-serif;
+		width: 500px;
+		animation: example 0.6s forwards;
+		opacity: 0;
+		border-radius: 20px;
+		padding: 40px;
+
+		> * {
+			width: 80%;
+		}
+
+		form > * {
+			width: 100%;
+		}
+
+		.input {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 5px;
+		}
+
+		.forgot-password {
+			color: rgba(255, 255, 255, 0.7);
+			text-align: right;
+			font-size: 14px;
+		}
+
+		.submit-button {
+			height: 40px;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 20px;
+		}
+	}
+}
